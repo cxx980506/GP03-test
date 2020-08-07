@@ -1,0 +1,59 @@
+.top{
+    width:860px;
+    height:80px;
+    background-color: #ccc;
+    margin:0 auto;
+    position:relative;
+}
+.top a{
+    text-decoration: none;
+    color:black;
+    position:absolute;
+    top:5px;
+    right:10px;
+    padding:5px;
+    border:1px solid black;
+}
+.crumbs{
+    width:860px;
+    margin:0 auto;
+    line-height:30px;
+}
+.goodList{
+    width:860px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.content{
+    width:880px;
+    overflow:hidden;
+}
+.content .goods{
+    float:left;
+    width:198px;
+    border:1px solid transparent;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.content .goods:hover{
+    border:1px solid black;
+}
+.goods p{
+    color:red;
+}
+.goods h3{
+    font-weight:normal;
+    font-size:16px;
+}
+.content .goods img{
+    width:198px;
+    display:block;
+}
+.goods div{
+    padding:5px 10px 5px 34px;
+    background:url('../img/cart.png') no-repeat 0 center;
+    border:1px solid transparent;
+}
+.goods div:hover{
+    border:1px solid black;
+}
