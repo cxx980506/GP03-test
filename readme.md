@@ -77,4 +77,9 @@
 ## git branch -d 分支名
 1. 删除分支
 
-## 1232222
+## 配置秘钥
+1. 生成秘钥ssh-keygen -t rea -C "your email"
+
+## 忽略列表
+1. 创建文件 .gitignore
+2. 把不需要的文件/目录添加到忽略列表
